@@ -29,4 +29,4 @@ cd
 
 사용 예시)
 
-![example_cd](../asset/img/1.cd_example.PNG)
+![example_cd](../assets/img/1.cd_example.PNG)
