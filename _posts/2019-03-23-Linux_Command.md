@@ -79,7 +79,3 @@ mv folder1 folder2
 mv folder1 /lower_directory
 ```
  -> folder1이라는 디렉토리를 현재 디렉토리 안에 있는 lower_directory라는 디렉토리 안으로 이동시킴
- 
-
-
-6)
