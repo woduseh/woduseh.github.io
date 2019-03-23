@@ -29,7 +29,7 @@ cd
 
 사용 예시)
 
-<img src="{{ site.url }}{{ site.baseurl }}/assets/images/example1.jpg" alt="">
+![alt]({{ https://woduseh.github.io }}{{  }}/assets/images/example1.png)
 
 
 
