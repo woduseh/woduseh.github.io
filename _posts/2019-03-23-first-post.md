@@ -1,4 +1,5 @@
 ---
+layout: post
 title:  "블로그 만들었습니다"
 categories:
 ---
