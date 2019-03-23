@@ -10,7 +10,7 @@ OSS 수업에서 리눅스 명령어들을 연습하고 블로그에 포스팅�
 
 
 
-1. cd (change directory)
+1) cd (change directory)
 
 말 그대로 현재 디렉토리를 바꾸는 명령어
  
@@ -33,7 +33,7 @@ cd
 
 
 
-2. mkdir (make directory)
+2) mkdir (make directory)
 
 디렉토리를 새로 만드는 명령어
 
@@ -44,18 +44,18 @@ mkdir folder
  
 
 
-3. rm (remove)
+3) rm (remove)
  
 파일/디렉토리를 제거하는 명령어
 
 ```c
-rm 1 hello.txt
+rm hello.txt
 ```
  -> hello.txt라는 파일을 삭제함
  
  
  
-4. rmdir (remove directory)
+4) rmdir (remove directory)
 
 빈 디렉토리를 제거하는 명령어. 디렉토리가 비어있지 않다면 제거할 수 없다
 
@@ -66,7 +66,7 @@ rmdir folder
 
 
 
-5. mv (move)
+5) mv (move)
 
 파일이나 디렉토리를 이동하거나, 이름을 변경할 때 사용하는 명령어
 
@@ -82,4 +82,4 @@ mv folder1 /lower_directory
  
 
 
-6. 
+6)
