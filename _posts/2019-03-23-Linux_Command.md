@@ -29,4 +29,4 @@ cd
 
 사용 예시)
 
-![example_cd](https://github.com/woduseh/woduseh.github.io/blob/master/_img/1.cd_example.PNG)
+![example_cd](../_img/1.cd_example.PNG)
