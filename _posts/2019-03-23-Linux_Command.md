@@ -29,7 +29,7 @@ cd
 
 사용 예시)
 
-![cd]({{ site.url }}{{ site.baseurl }}/tree/master/assets/img/1.cd_example.png)
+![cd](../assets/img/1.cd_example.png)
 
 
 
