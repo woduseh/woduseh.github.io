@@ -18,8 +18,8 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 locale                   : "Kor"
 title                    : "Studying Code"
 title_separator          : "-"
-name                     : "Hwang JaeYeon"
-description              : "Collage Student"
+name                     : "코드 공부하는 블로그"
+description              : "수업/과제를 위해 코드를 공부하고 업로드함"
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -279,6 +279,10 @@ compress_html:
   ignore:
     envs: development
 
+comments:
+  provider               : "disqus"
+  disqus:
+    shortname            : dev-hundred-blog # Short-name
 
 # Defaults
 defaults:
