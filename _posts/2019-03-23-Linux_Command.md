@@ -29,7 +29,7 @@ cd
 
 사용 예시)
 
-![alt]({{ https://woduseh.github.io }}{{  }}/assets/images/example1.png)
+![alt]({https://woduseh.github.io}{}/assets/images/example1.png)
 
 
 
