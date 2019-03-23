@@ -1,12 +1,6 @@
-#!/bin/bash
-$ cat 2018-10-12-start-blog.md
 ---
-title:  "블로그를 시작하기"
-
+title:  "블로그 만들었습니다"
 categories:
-  - Blog
-last_modified_at: 2019-03-23
 ---
 
-github.io를 사용하여 블로그를 시작!!
-$
+OSS와 실전프로젝트 2 수업에서 필요한 내용들을 업로드하는 
