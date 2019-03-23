@@ -29,5 +29,4 @@ cd
 
 사용 예시)
 
-![example_cd](../_img/1.cd_example.PNG)
-<img width="600" src="https://github.com/woduseh/woduseh.github.io/blob/master/_img/1.cd_example.PNG" width="100%"></img>
+![example_cd](../asset/img/1.cd_example.PNG)
