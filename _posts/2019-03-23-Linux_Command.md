@@ -30,3 +30,56 @@ cd
 사용 예시)
 
 ![1.cd_example](../assets/img/1.cd_example.PNG)
+
+
+
+2. mkdir (make directory)
+
+디렉토리를 새로 만드는 명령어
+
+```c
+mkdir folder
+```
+ -> 현재 경로에 folder라는 이름의 디렉토리를 새로 생성함
+ 
+
+
+3. rm (remove)
+ 
+파일/디렉토리를 제거하는 명령어
+
+```c
+rm 1 hello.txt
+```
+ -> hello.txt라는 파일을 삭제함
+ 
+ 
+ 
+4. rmdir (remove directory)
+
+빈 디렉토리를 제거하는 명령어. 디렉토리가 비어있지 않다면 제거할 수 없다
+
+```c
+rmdir folder
+```
+--> folder 라는 빈 디렉토리를 삭제함
+
+
+
+5. mv (move)
+
+파일이나 디렉토리를 이동하거나, 이름을 변경할 때 사용하는 명령어
+
+```c
+mv folder1 folder2
+```
+ -> folder1의 이름을 folder2로 변경함
+ 
+```c
+mv folder1 /lower_directory
+```
+ -> folder1이라는 디렉토리를 현재 디렉토리 안에 있는 lower_directory라는 디렉토리 안으로 이동시킴
+ 
+
+
+6. 
