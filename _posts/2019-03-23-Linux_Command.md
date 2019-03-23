@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "리눅스 명령어 연습"
 categories: [OSS, Linux]
 ---
