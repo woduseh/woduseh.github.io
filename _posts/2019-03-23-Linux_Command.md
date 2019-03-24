@@ -48,6 +48,9 @@ mkdir folder
  
 
 
+
+
+
 3) rm (remove)
  
 파일/디렉토리를 제거하는 명령어
@@ -60,6 +63,9 @@ rm hello.txt
 사용 예시)
 
 ![example_rm](https://woduseh.github.io/assets/images/example3.PNG)
+ 
+ 
+ 
  
  
  
@@ -76,6 +82,9 @@ rmdir folder
 
 ![example_rmdir](https://woduseh.github.io/assets/images/example4.PNG)
  
+
+
+
 
 
 5) mv (move)
@@ -98,6 +107,9 @@ mv folder1 lower_directory
  
 
 
+
+
+
 6) cat
 
 파일의 내용을 출력하는 명령어. 파일에 내용을 입력할 때도 사용할 수 있다
@@ -114,6 +126,9 @@ cat > a.txt
 사용 예시)
 
 ![example_cat](https://woduseh.github.io/assets/images/example6.PNG)
+ 
+ 
+ 
  
  
  
@@ -139,6 +154,9 @@ ls -l
 
 ![example_ls](https://woduseh.github.io/assets/images/example7.PNG)
  
+
+
+
 
 
 8) 
