@@ -186,6 +186,7 @@ pwd
 12) logout
 
 로그인 셸에서 로그아웃
+
 ```c
 logout
 ```
@@ -199,6 +200,7 @@ logout
 13) ln
 
 링크를 생성하는 명령어
+
 ```c
 ln [링크를 생성하려는 파일 이름] [링크될 파일 이름]
 ```
@@ -248,6 +250,7 @@ du
 16) locale
 
 로케일 정보를 조회하는 명령어
+
 ```c
 locale
 ```
@@ -262,6 +265,7 @@ locale
 17) man (manual)
 
 메뉴얼을 출력하는 명령어
+
 ```c
 man [명령어]
 ```
@@ -276,6 +280,7 @@ man [명령어]
 18) shutdown
 
 리눅스를 종료하는 명령어
+
 ```c
 shutdown -h [시간값]
 ```
@@ -283,175 +288,40 @@ shutdown -h [시간값]
  
 사용 예시)
 
-![example-](https://woduseh.github.io/assets/images/example18.PNG)
+![example-shutdown](https://woduseh.github.io/assets/images/example18.PNG)
 
 
 
-19)
+19) kill
 
-로그인 셸에서 로그아웃한다.
+프로세스를 강제로 종료하는 명령어
+
 ```c
-logout
+kill [종료할 프로세스 ID]
 ```
- -> 프로그램 종료
+ -> [종료할 프로세스 ID]를 종료한다
  
 사용 예시)
 
-![example-logout](https://woduseh.github.io/assets/images/example19.PNG)
+(실행중인 프로세스가 없어서 종료하지 못했다만 이런 방식으로 사용하면 된다...)
+![example-kill](https://woduseh.github.io/assets/images/example19.PNG)
 
 
+20) passwd
 
-20)
+패스워드를 변경하는 명령어
 
-로그인 셸에서 로그아웃한다.
 ```c
-logout
+passwd
+New password: [변경할 비밀번호]
+Retype new password: [변경할 비밀번호]
 ```
- -> 프로그램 종료
+ -> [변경할 비밀번호]로 비밀번호를 변경한다
  
 사용 예시)
 
-![example-logout](https://woduseh.github.io/assets/images/example20.PNG)
-
-
-
-21)
-
-로그인 셸에서 로그아웃한다.
-```c
-logout
-```
- -> 프로그램 종료
- 
-사용 예시)
-
-![example-logout](https://woduseh.github.io/assets/images/example21.PNG)
-
-
-
-22)
-
-로그인 셸에서 로그아웃한다.
-```c
-logout
-```
- -> 프로그램 종료
- 
-사용 예시)
-
-![example-logout](https://woduseh.github.io/assets/images/example22.PNG)
-
-
-
-23)
-
-로그인 셸에서 로그아웃한다.
-```c
-logout
-```
- -> 프로그램 종료
- 
-사용 예시)
-
-![example-logout](https://woduseh.github.io/assets/images/example23.PNG)
-
-
-
-24)
-
-로그인 셸에서 로그아웃한다.
-```c
-logout
-```
- -> 프로그램 종료
- 
-사용 예시)
-
-![example-logout](https://woduseh.github.io/assets/images/example24.PNG)
-
-
-
-25)
-
-로그인 셸에서 로그아웃한다.
-```c
-logout
-```
- -> 프로그램 종료
- 
-사용 예시)
-
-![example-logout](https://woduseh.github.io/assets/images/example25.PNG)
-
-
-
-26)
-
-로그인 셸에서 로그아웃한다.
-```c
-logout
-```
- -> 프로그램 종료
- 
-사용 예시)
-
-![example-logout](https://woduseh.github.io/assets/images/example26.PNG)
-
-
-
-27)
-
-로그인 셸에서 로그아웃한다.
-```c
-logout
-```
- -> 프로그램 종료
- 
-사용 예시)
-
-![example-logout](https://woduseh.github.io/assets/images/example27.PNG)
-
-
-
-28)
-
-로그인 셸에서 로그아웃한다.
-```c
-logout
-```
- -> 프로그램 종료
- 
-사용 예시)
-
-![example-logout](https://woduseh.github.io/assets/images/example28.PNG)
-
-
-
-29)
-
-로그인 셸에서 로그아웃한다.
-```c
-logout
-```
- -> 프로그램 종료
- 
-사용 예시)
-
-![example-logout](https://woduseh.github.io/assets/images/example29.PNG)
-
-
-
-30)
-
-로그인 셸에서 로그아웃한다.
-```c
-logout
-```
- -> 프로그램 종료
- 
-사용 예시)
-
-![example-logout](https://woduseh.github.io/assets/images/example30.PNG)
+(비밀번호를 바꾸고 싶지 않기에 일부러 이렇게 실행했으나 사용법대로 실행하면 비밀번호가 바뀐다)
+![example-passwd](https://woduseh.github.io/assets/images/example20.PNG)
 
 
 
