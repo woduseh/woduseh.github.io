@@ -139,7 +139,6 @@ chmod 755 folder
 
 사용 예시)
 
-![example_chmod](https://woduseh.github.io/assets/images/example8.png)
 
 9) clear
 
@@ -152,7 +151,6 @@ clear
  
 사용 예시)
 
-![example_clear](https://woduseh.github.io/assets/images/example9.png)
 
 10) cp (copy)
 
@@ -165,7 +163,6 @@ cp name.txt name2.txt
  
 사용 예시)
 
-![example_cp](https://woduseh.github.io/assets/images/example10.png)
 
 11)
 
