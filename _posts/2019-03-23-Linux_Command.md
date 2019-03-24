@@ -28,13 +28,7 @@ cd
  -> 홈 디렉토리로 이동
 
 사용 예시)
-
 ![example_cd](https://woduseh.github.io/assets/images/example1.PNG)
-
-
-
-
-
 
 2) mkdir (make directory)
 
@@ -46,13 +40,7 @@ mkdir folder
  -> 현재 경로에 folder라는 이름의 디렉토리를 새로 생성함
 
 사용 예시)
-
 ![example_mkdir](https://woduseh.github.io/assets/images/example2.PNG)
- 
-
-
-
-
 
 3) rm (remove)
  
@@ -64,13 +52,7 @@ rm hello.txt
  -> hello.txt라는 파일을 삭제함
  
 사용 예시)
-
 ![example_rm](https://woduseh.github.io/assets/images/example3.PNG)
- 
- 
- 
- 
- 
  
 4) rmdir (remove directory)
 
@@ -82,13 +64,7 @@ rmdir folder
 --> folder 라는 빈 디렉토리를 삭제함
  
 사용 예시)
-
 ![example_rmdir](https://woduseh.github.io/assets/images/example4.PNG)
- 
-
-
-
-
 
 5) mv (move)
 
@@ -105,13 +81,7 @@ mv folder1 lower_directory
  -> folder1이라는 디렉토리를 현재 디렉토리 안에 있는 lower_directory라는 디렉토리 안으로 이동시킴
  
 사용 예시)
-
 ![example_mv](https://woduseh.github.io/assets/images/example5.PNG)
- 
-
-
-
-
 
 6) cat
 
@@ -127,14 +97,8 @@ cat > a.txt
  --> a.txt에 내용을 입력할 수 있게 된다. 입력모드에서 나오려면 ctrl+d를 누르면 된다
   
 사용 예시)
-
 ![example_cat](https://woduseh.github.io/assets/images/example6.PNG)
- 
- 
- 
- 
- 
- 
+
 7) ls (list directory contents)
 
 현재 디렉토리의 내용 목록을 출력한다
@@ -154,13 +118,7 @@ ls -l
  -> 현재 디렉토리에 있는 모든 파일, 디렉토리의 목록을 접근 권한과 함께 출력한다
  
 사용 예시)
-
 ![example_ls](https://woduseh.github.io/assets/images/example7.PNG)
- 
-
-
-
-
 
 8) 
 
