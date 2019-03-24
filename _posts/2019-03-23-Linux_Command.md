@@ -33,6 +33,9 @@ cd
 
 
 
+
+
+
 2) mkdir (make directory)
 
 디렉토리를 새로 만드는 명령어
