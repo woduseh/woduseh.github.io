@@ -135,11 +135,12 @@ ls -l
 chmod 755 folder
 ```
  -> folder의 사용권한을 rwxr-xr-x로 설정
+ 
 (좌측부터 순서대로 소유자 - 그룹 - 모든 사용자이며 r=4, w=2, x=1. 755의 의미는 소유자는 rwx, 그룹은 r-x, 모든 사용자는 r-x)
 
 사용 예시)
 
-![example_chmod](https://woduseh.github.io/assets/images/example8.png)
+![example_chmod](https://woduseh.github.io/blob/master/assets/images/example8.PNG)
 
 9) clear
 
@@ -152,7 +153,7 @@ clear
  
 사용 예시)
 
-![example_clear](https://woduseh.github.io/assets/images/example9.png)
+![example_clear](https://woduseh.github.io/blob/master/assets/images/example9.PNG)
 
 10) cp (copy)
 
@@ -165,7 +166,7 @@ cp name.txt name2.txt
  
 사용 예시)
 
-![example_cp](https://woduseh.github.io/assets/images/example10.png)
+![example_cp](https://woduseh.github.io/blob/master/assets/images/example10.PNG)
 
 11)
 
