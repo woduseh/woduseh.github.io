@@ -12,7 +12,7 @@ OSS 수업에서 리눅스 명령어들을 연습하고 블로그에 포스팅�
 
 1) cd (change directory)
 
-말 그대로 현재 디렉토리를 바꾸는 명령어
+현재 디렉토리를 바꾸는 명령어
  
 ```c
 cd /
@@ -59,7 +59,7 @@ rm hello.txt
  
 4) rmdir (remove directory)
 
-빈 디렉토리를 제거하는 명령어. 디렉토리가 비어있지 않다면 제거할 수 없다
+빈 디렉토리를 제거하는 명령어. 다만 디렉토리가 비어있지 않다면 제거할 수 없다
 
 ```c
 rmdir folder
@@ -107,7 +107,7 @@ cat > a.txt
 
 7) ls (list directory contents)
 
-현재 디렉토리의 내용 목록을 출력한다
+현재 디렉토리의 내용 목록을 출력
 ```c
 ls
 ```
@@ -168,83 +168,288 @@ cp name.txt name2.txt
 
 ![example-cp](https://woduseh.github.io/assets/images/example10.PNG)
 
-11)
+11) pwd (print working directory)
+
+현재 디렉토리를 프린트하는 명령어
+
+```c
+pwd
+```
+ -> 현재 디렉토리를 출력함
+ 
+사용 예시)
+
+![example-pwd](https://woduseh.github.io/assets/images/example11.PNG)
+
+12) logout
+
+로그인 셸에서 로그아웃
+```c
+logout
+```
+ -> 프로그램 종료
+ 
+사용 예시)
+
+![example-logout](https://woduseh.github.io/assets/images/example12.PNG)
+
+
+13) ln
+
+링크를 생성하는 명령어
+```c
+ln file1 file2
+```
+ -> 하드 링크 생성 (하나의 파일을 가르키는 2개의 이름을 만듬)
+ 
+```c
+ln -s file1 file2
+```
+ -> 심볼릭 링크 생성 (윈도우의 바로가기)
+ 
+사용 예시)
+
+![example-ln](https://woduseh.github.io/assets/images/example13.PNG)
 
 
 
-12)
+14) date
+
+현재 날짜와 시간을 출력하는 명령어
+
+```c
+date
+```
+ -> 현재 날짜와 시간을 출력한다
+ 
+사용 예시)
+
+![example-date](https://woduseh.github.io/assets/images/example14.PNG)
 
 
 
-13)
+15) du (disk usage)
+
+디렉토리의 용량을 출력하는 명령어
+
+```c
+du
+```
+ -> 현재 디렉토리 내 디렉토리와 폴더들의 용량을 출력한다
+ 
+사용 예시)
+
+![example-du](https://woduseh.github.io/assets/images/example15.PNG)
 
 
 
-14)
+16) locale
 
+로케일 정보를 조회하는 명령어
+```c
+locale
+```
+ -> 현재 로케일 정보를 출력한다
+ 
+사용 예시)
 
-
-15)
-
-
-
-16)
+![example-locale](https://woduseh.github.io/assets/images/example16.PNG)
 
 
 
 17)
 
+로그인 셸에서 로그아웃한다.
+```c
+logout
+```
+ -> 프로그램 종료
+ 
+사용 예시)
+
+![example-logout](https://woduseh.github.io/assets/images/example17.PNG)
+
 
 
 18)
+
+로그인 셸에서 로그아웃한다.
+```c
+logout
+```
+ -> 프로그램 종료
+ 
+사용 예시)
+
+![example-logout](https://woduseh.github.io/assets/images/example18.PNG)
 
 
 
 19)
 
+로그인 셸에서 로그아웃한다.
+```c
+logout
+```
+ -> 프로그램 종료
+ 
+사용 예시)
+
+![example-logout](https://woduseh.github.io/assets/images/example19.PNG)
+
 
 
 20)
+
+로그인 셸에서 로그아웃한다.
+```c
+logout
+```
+ -> 프로그램 종료
+ 
+사용 예시)
+
+![example-logout](https://woduseh.github.io/assets/images/example20.PNG)
 
 
 
 21)
 
+로그인 셸에서 로그아웃한다.
+```c
+logout
+```
+ -> 프로그램 종료
+ 
+사용 예시)
+
+![example-logout](https://woduseh.github.io/assets/images/example21.PNG)
+
 
 
 22)
+
+로그인 셸에서 로그아웃한다.
+```c
+logout
+```
+ -> 프로그램 종료
+ 
+사용 예시)
+
+![example-logout](https://woduseh.github.io/assets/images/example22.PNG)
 
 
 
 23)
 
+로그인 셸에서 로그아웃한다.
+```c
+logout
+```
+ -> 프로그램 종료
+ 
+사용 예시)
+
+![example-logout](https://woduseh.github.io/assets/images/example23.PNG)
+
 
 
 24)
+
+로그인 셸에서 로그아웃한다.
+```c
+logout
+```
+ -> 프로그램 종료
+ 
+사용 예시)
+
+![example-logout](https://woduseh.github.io/assets/images/example24.PNG)
 
 
 
 25)
 
+로그인 셸에서 로그아웃한다.
+```c
+logout
+```
+ -> 프로그램 종료
+ 
+사용 예시)
+
+![example-logout](https://woduseh.github.io/assets/images/example25.PNG)
+
 
 
 26)
+
+로그인 셸에서 로그아웃한다.
+```c
+logout
+```
+ -> 프로그램 종료
+ 
+사용 예시)
+
+![example-logout](https://woduseh.github.io/assets/images/example26.PNG)
 
 
 
 27)
 
+로그인 셸에서 로그아웃한다.
+```c
+logout
+```
+ -> 프로그램 종료
+ 
+사용 예시)
+
+![example-logout](https://woduseh.github.io/assets/images/example27.PNG)
+
 
 
 28)
+
+로그인 셸에서 로그아웃한다.
+```c
+logout
+```
+ -> 프로그램 종료
+ 
+사용 예시)
+
+![example-logout](https://woduseh.github.io/assets/images/example28.PNG)
 
 
 
 29)
 
+로그인 셸에서 로그아웃한다.
+```c
+logout
+```
+ -> 프로그램 종료
+ 
+사용 예시)
+
+![example-logout](https://woduseh.github.io/assets/images/example29.PNG)
+
 
 
 30)
+
+로그인 셸에서 로그아웃한다.
+```c
+logout
+```
+ -> 프로그램 종료
+ 
+사용 예시)
+
+![example-logout](https://woduseh.github.io/assets/images/example30.PNG)
 
 
 
