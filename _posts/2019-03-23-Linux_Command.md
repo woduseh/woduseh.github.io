@@ -28,6 +28,7 @@ cd
  -> 홈 디렉토리로 이동
 
 사용 예시)
+
 ![example_cd](https://woduseh.github.io/assets/images/example1.PNG)
 
 2) mkdir (make directory)
@@ -40,6 +41,7 @@ mkdir folder
  -> 현재 경로에 folder라는 이름의 디렉토리를 새로 생성함
 
 사용 예시)
+
 ![example_mkdir](https://woduseh.github.io/assets/images/example2.PNG)
 
 3) rm (remove)
@@ -52,6 +54,7 @@ rm hello.txt
  -> hello.txt라는 파일을 삭제함
  
 사용 예시)
+
 ![example_rm](https://woduseh.github.io/assets/images/example3.PNG)
  
 4) rmdir (remove directory)
@@ -64,6 +67,7 @@ rmdir folder
 --> folder 라는 빈 디렉토리를 삭제함
  
 사용 예시)
+
 ![example_rmdir](https://woduseh.github.io/assets/images/example4.PNG)
 
 5) mv (move)
@@ -81,6 +85,7 @@ mv folder1 lower_directory
  -> folder1이라는 디렉토리를 현재 디렉토리 안에 있는 lower_directory라는 디렉토리 안으로 이동시킴
  
 사용 예시)
+
 ![example_mv](https://woduseh.github.io/assets/images/example5.PNG)
 
 6) cat
@@ -97,6 +102,7 @@ cat > a.txt
  --> a.txt에 내용을 입력할 수 있게 된다. 입력모드에서 나오려면 ctrl+d를 누르면 된다
   
 사용 예시)
+
 ![example_cat](https://woduseh.github.io/assets/images/example6.PNG)
 
 7) ls (list directory contents)
@@ -118,19 +124,48 @@ ls -l
  -> 현재 디렉토리에 있는 모든 파일, 디렉토리의 목록을 접근 권한과 함께 출력한다
  
 사용 예시)
+
 ![example_ls](https://woduseh.github.io/assets/images/example7.PNG)
 
-8) 
+8) chomd (change mode)
 
+파일 또는 디렉토리의 접근권한을 변경하는 명령어
 
+```c
+chmod 755 folder
+```
+ -> folder의 사용권한을 rwxr-xr-x로 설정
+(좌측부터 순서대로 소유자 - 그룹 - 모든 사용자이며 r=4, w=2, x=1. 755의 의미는 소유자는 rwx, 그룹은 r-x, 모든 사용자는 r-x)
 
-9) 
+사용 예시)
 
+![example_chmod](https://woduseh.github.io/assets/images/example8.PNG)
 
+9) clear
 
-10)
+터미널 화면을 비우는 명령어
 
+```c
+clear
+```
+ -> 현재 화면에 출력된 것을 모두 비운다
+ 
+사용 예시)
 
+![example_clear](https://woduseh.github.io/assets/images/example9.PNG)
+
+10) cp (copy)
+
+파일/디렉토리을 복사하는 명령어
+
+```c
+cp name.txt name2.txt
+```
+ -> name.txt라는 파일을 복사해서 name2.txt라는 이름을 붙임
+ 
+사용 예시)
+
+![example_cp](https://woduseh.github.io/assets/images/example10.PNG)
 
 11)
 
