@@ -29,7 +29,7 @@ cd
 
 사용 예시)
 
-![alt](https://woduseh.github.io/assets/images/example1.PNG)
+![example_cd](https://woduseh.github.io/assets/images/example1.PNG)
 
 
 
@@ -44,7 +44,7 @@ mkdir folder
 
 사용 예시)
 
-![alt](https://woduseh.github.io/assets/images/example2.PNG)
+![example_mkdir](https://woduseh.github.io/assets/images/example2.PNG)
  
 
 
@@ -59,7 +59,7 @@ rm hello.txt
  
 사용 예시)
 
-![alt](https://woduseh.github.io/assets/images/example3.PNG)
+![example_rm](https://woduseh.github.io/assets/images/example3.PNG)
  
  
  
@@ -74,7 +74,7 @@ rmdir folder
  
 사용 예시)
 
-![alt](https://woduseh.github.io/assets/images/example4.PNG)
+![example_rmdir](https://woduseh.github.io/assets/images/example4.PNG)
  
 
 
@@ -94,7 +94,7 @@ mv folder1 lower_directory
  
 사용 예시)
 
-![alt](https://woduseh.github.io/assets/images/example5.PNG)
+![example_mv](https://woduseh.github.io/assets/images/example5.PNG)
  
 
 
@@ -113,7 +113,7 @@ cat > a.txt
   
 사용 예시)
 
-![alt](https://woduseh.github.io/assets/images/example6.PNG)
+![example_cat](https://woduseh.github.io/assets/images/example6.PNG)
  
  
  
@@ -137,7 +137,7 @@ ls -l
  
 사용 예시)
 
-![alt](https://woduseh.github.io/assets/images/example7.PNG)
+![example_ls](https://woduseh.github.io/assets/images/example7.PNG)
  
 
 
