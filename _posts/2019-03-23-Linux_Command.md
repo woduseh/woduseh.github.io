@@ -307,6 +307,7 @@ kill [종료할 프로세스 ID]
 ![example-kill](https://woduseh.github.io/assets/images/example19.PNG)
 
 
+
 20) passwd
 
 패스워드를 변경하는 명령어
@@ -322,6 +323,157 @@ Retype new password: [변경할 비밀번호]
 
 (비밀번호를 바꾸고 싶지 않기에 일부러 이렇게 실행했으나 사용법대로 실행하면 비밀번호가 바뀐다)
 ![example-passwd](https://woduseh.github.io/assets/images/example20.PNG)
+
+
+
+21) who
+
+현재 서버에 로그인한 사용자를 모두 출력하는 명령어
+
+```c
+who
+```
+ -> 현재 서버에 로그인한 사용자를 모두 출력한다
+ 
+사용 예시)
+
+![example-who](https://woduseh.github.io/assets/images/example21.PNG)
+
+
+
+22) whoami
+
+현재 로그인한 내 자신의 계정을 출력하는 명령어
+
+```c
+who
+```
+ -> 현재 서버에 로그인한 내 자신의 계정을 출력한다
+ 
+사용 예시)
+
+![example-whoami](https://woduseh.github.io/assets/images/example22.PNG)
+
+
+
+23) echo
+
+뒤이어 입력되는 문자열을 모니터에 출력하는 명령어
+
+```c
+echo [출력하려는 문자열]
+```
+ -> [출력하려는 문자열]을 모니터에 출력한다
+ 
+사용 예시)
+
+![example-echo](https://woduseh.github.io/assets/images/example23.PNG)
+
+
+
+24) env
+
+시스템 환경변수를 출력하는 명령어
+
+```c
+env
+```
+ -> [출력하려는 문자열]을 모니터에 출력한다
+ 
+사용 예시)
+
+![example-env](https://woduseh.github.io/assets/images/example24.PNG)
+
+
+
+25) ps
+
+시스템에서 실행되고 있는 프로세스 목록을 출력하는 명령어
+
+```c
+ps
+```
+ -> 시스템에서 실행되고 있는 프로세스 목록을 출력한다
+ 
+사용 예시)
+
+![example-ps](https://woduseh.github.io/assets/images/example25.PNG)
+
+
+
+26) find
+
+파일/디렉토리를 검색하는 명령어 
+
+```c
+find [찾으려는 키워드]
+```
+ -> 현재 디렉토리 기준으로 찾으려는 키워드가 어디에 있는지 출력한다
+ 
+사용 예시)
+
+![example-find](https://woduseh.github.io/assets/images/example26.PNG)
+
+
+
+27) locate
+
+파일/디렉토리를 검색하는 명령어
+
+```c
+locate [찾으려는 키워드]
+```
+ -> 찾으려는 키워드가 어디에 있는지 그 절대경로를 출력한다
+ 
+사용 예시)
+
+![example-locate](https://woduseh.github.io/assets/images/example27.PNG)
+
+
+
+28) tree
+
+디렉토리 목록을 트리구조로 보여주는 명령어
+
+```c
+tree
+```
+ -> 디렉토리 목록을 트리구조로 출력한다
+ 
+사용 예시)
+
+![example-tree](https://woduseh.github.io/assets/images/example28.PNG)
+
+
+
+29) more
+
+cat과 비슷하게 파일을 출력하는 명령어
+
+```c
+more [출력하려는 파일]
+```
+ -> [출력하려는 파일]을 출력한다
+ 
+사용 예시)
+
+![example-more](https://woduseh.github.io/assets/images/example29.PNG)
+
+
+
+30) which
+
+명령어가 저장된 위치를 출력하는 명령어
+
+```c
+which [찾으려는 명령어]
+```
+ -> [찾으려는 명령어]가 저장된 위치를 출력한다
+ 
+사용 예시)
+
+![example-which](https://woduseh.github.io/assets/images/example30.PNG)
+
 
 
 
