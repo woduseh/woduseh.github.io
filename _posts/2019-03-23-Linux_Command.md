@@ -142,7 +142,7 @@ chmod 755 [권한을 설정하려는 파일/디렉토리 이름]
 
 사용 예시)
 
-![example-chmod](https://woduseh.github.io/assets/images/example8.PNG)
+![example_chmod](https://woduseh.github.io/assets/images/example8.PNG)
 
 9) clear
 
@@ -155,7 +155,7 @@ clear
  
 사용 예시)
 
-![example-clear](https://woduseh.github.io/assets/images/example9.PNG)
+![example_clear](https://woduseh.github.io/assets/images/example9.PNG)
 
 10) cp (copy)
 
@@ -168,7 +168,7 @@ cp [복사하려는 파일/디렉토리 이름] [복사될 파일/디렉토리 �
  
 사용 예시)
 
-![example-cp](https://woduseh.github.io/assets/images/example10.PNG)
+![example_cp](https://woduseh.github.io/assets/images/example10.PNG)
 
 11) pwd (print working directory)
 
@@ -181,7 +181,7 @@ pwd
  
 사용 예시)
 
-![example-pwd](https://woduseh.github.io/assets/images/example11.PNG)
+![example_pwd](https://woduseh.github.io/assets/images/example11.PNG)
 
 12) logout
 
@@ -194,7 +194,7 @@ logout
  
 사용 예시)
 
-![example-logout](https://woduseh.github.io/assets/images/example12.PNG)
+![example_logout](https://woduseh.github.io/assets/images/example12.PNG)
 
 
 13) ln
@@ -213,7 +213,7 @@ ln -s [링크를 생성하려는 파일 이름] [링크될 파일 이름]
  
 사용 예시)
 
-![example-ln](https://woduseh.github.io/assets/images/example13.PNG)
+![example_ln](https://woduseh.github.io/assets/images/example13.PNG)
 
 
 
@@ -228,7 +228,7 @@ date
  
 사용 예시)
 
-![example-date](https://woduseh.github.io/assets/images/example14.PNG)
+![example_date](https://woduseh.github.io/assets/images/example14.PNG)
 
 
 
@@ -243,7 +243,7 @@ du
  
 사용 예시)
 
-![example-du](https://woduseh.github.io/assets/images/example15.PNG)
+![example_du](https://woduseh.github.io/assets/images/example15.PNG)
 
 
 
@@ -258,7 +258,7 @@ locale
  
 사용 예시)
 
-![example-locale](https://woduseh.github.io/assets/images/example16.PNG)
+![example_locale](https://woduseh.github.io/assets/images/example16.PNG)
 
 
 
@@ -273,7 +273,7 @@ man [명령어]
  
 사용 예시)
 
-![example-man](https://woduseh.github.io/assets/images/example17.PNG)
+![example_man](https://woduseh.github.io/assets/images/example17.PNG)
 
 
 
@@ -288,7 +288,7 @@ shutdown -h [시간값]
  
 사용 예시)
 
-![example-shutdown](https://woduseh.github.io/assets/images/example18.PNG)
+![example_shutdown](https://woduseh.github.io/assets/images/example18.PNG)
 
 
 
@@ -304,7 +304,7 @@ kill [종료할 프로세스 ID]
 사용 예시)
 
 (실행중인 프로세스가 없어서 종료하지 못했다만 이런 방식으로 사용하면 된다...)
-![example-kill](https://woduseh.github.io/assets/images/example19.PNG)
+![example_kill](https://woduseh.github.io/assets/images/example19.PNG)
 
 
 
@@ -322,7 +322,7 @@ Retype new password: [변경할 비밀번호]
 사용 예시)
 
 (비밀번호를 바꾸고 싶지 않기에 일부러 이렇게 실행했으나 사용법대로 실행하면 비밀번호가 바뀐다)
-![example-passwd](https://woduseh.github.io/assets/images/example20.PNG)
+![example_passwd](https://woduseh.github.io/assets/images/example20.PNG)
 
 
 
@@ -337,7 +337,7 @@ who
  
 사용 예시)
 
-![example-who](https://woduseh.github.io/assets/images/example21.PNG)
+![example_who](https://woduseh.github.io/assets/images/example21.PNG)
 
 
 
@@ -352,7 +352,7 @@ who
  
 사용 예시)
 
-![example-whoami](https://woduseh.github.io/assets/images/example22.PNG)
+![example_whoami](https://woduseh.github.io/assets/images/example22.PNG)
 
 
 
@@ -367,7 +367,7 @@ echo [출력하려는 문자열]
  
 사용 예시)
 
-![example-echo](https://woduseh.github.io/assets/images/example23.PNG)
+![example_echo](https://woduseh.github.io/assets/images/example23.PNG)
 
 
 
@@ -382,7 +382,7 @@ env
  
 사용 예시)
 
-![example-env](https://woduseh.github.io/assets/images/example24.PNG)
+![example_env](https://woduseh.github.io/assets/images/example24.PNG)
 
 
 
@@ -397,7 +397,7 @@ ps
  
 사용 예시)
 
-![example-ps](https://woduseh.github.io/assets/images/example25.PNG)
+![example_ps](https://woduseh.github.io/assets/images/example25.PNG)
 
 
 
@@ -412,7 +412,7 @@ find [찾으려는 키워드]
  
 사용 예시)
 
-![example-find](https://woduseh.github.io/assets/images/example26.PNG)
+![example_find](https://woduseh.github.io/assets/images/example26.PNG)
 
 
 
@@ -427,7 +427,7 @@ locate [찾으려는 키워드]
  
 사용 예시)
 
-![example-locate](https://woduseh.github.io/assets/images/example27.PNG)
+![example_locate](https://woduseh.github.io/assets/images/example27.PNG)
 
 
 
@@ -442,7 +442,7 @@ tree
  
 사용 예시)
 
-![example-tree](https://woduseh.github.io/assets/images/example28.PNG)
+![example_tree](https://woduseh.github.io/assets/images/example28.PNG)
 
 
 
@@ -457,7 +457,7 @@ more [출력하려는 파일]
  
 사용 예시)
 
-![example-more](https://woduseh.github.io/assets/images/example29.PNG)
+![example_more](https://woduseh.github.io/assets/images/example29.PNG)
 
 
 
@@ -472,7 +472,7 @@ which [찾으려는 명령어]
  
 사용 예시)
 
-![example-which](https://woduseh.github.io/assets/images/example30.PNG)
+![example_which](https://woduseh.github.io/assets/images/example30.PNG)
 
 
 
