@@ -1,6 +1,6 @@
 ---
 layout: posts
-title: "Java 인터페이스"
+title: "Java 상속"
 categories: [Java]
 ---
 
