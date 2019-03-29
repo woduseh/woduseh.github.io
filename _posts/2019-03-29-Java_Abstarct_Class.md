@@ -4,6 +4,8 @@ title: "Java 추상 클래스"
 categories: [Java]
 ---
 
+Java Abstarct Class
+
 05-8 추상클래스
 추상클래스(Abstract Class)는 인터페이스의 역할도 하면서 뭔가 구현체도 가지고 있는 자바의 돌연변이 같은 클래스이다. 혹자는 추상클래스는 인터페이스로 대체하는것이 좋은 디자인이라고도 얘기한다.
 
