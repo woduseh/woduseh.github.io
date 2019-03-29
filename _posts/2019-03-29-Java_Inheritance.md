@@ -1,3 +1,11 @@
+---
+layout: posts
+title: "Java 인터페이스"
+categories: [Java]
+---
+
+Java Inheritance
+
 05-4 상속
 이번엔 자바의 상속(Inheritance)에 대해서 알아보자. 상속은 말 그대로 자식이 부모로부터 무언가를 물려받는 것이다.
 
