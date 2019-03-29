@@ -1,6 +1,6 @@
 ---
 layout: posts
-title: "Java 추상 클래스"
+title: "Java 인터페이스"
 categories: [Java]
 ---
 
