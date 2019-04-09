@@ -28,7 +28,7 @@ PR: pull request - 내가 commit한 파일을 원본에 추가해주길 request�
 
 일반적으로 fork -> clone -> 개발 (add, commit...) -> push -> pull request -> pull (원본 소유자가 pull을 한다면) 으로 진행된다
 
-예시)
+예시) (2019-04-09 OSS 강의내용)
 
 7주차 - PR 해보기 순서
 1. GitHub에 로그인 한 후, 이곳의 Repository를 fork 합니다.
