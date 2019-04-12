@@ -4,7 +4,7 @@ title: "Git&Github 기초"
 categories: [OSS, Git]
 ---
 
-#### Git과 Github 기초 사용법
+# Git과 Github 기초 사용법
 ---
 
 
