@@ -4,7 +4,10 @@ title: "Git&Github 기초"
 categories: [OSS, Git]
 ---
 
-Git과 Github 기초 사용법
+#### Git과 Github 기초 사용법
+---
+
+
 
 Git이란? 분산 버전 관리 툴
 
@@ -55,5 +58,11 @@ git clone https://github.com/자기계정/oss2019spring
 ```
 1)  New pull request 클릭  
 2)  Create pull request 클릭
-```
+
 8. Pull Request 보내지고, 받아들여졌는지 확인
+```
+
+
+
+merge: PR을 받아들일지 말지 결정하여 받아들이기로 판단했을 때 받아들이는 행위
+ - 주의점) 기존 파일과 이름이 같을 경우
