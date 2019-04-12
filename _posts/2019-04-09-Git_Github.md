@@ -65,6 +65,14 @@ git clone https://github.com/자기계정/oss2019spring
 
 - merge: PR을 받아들일지 말지 결정하여 받아들이기로 판단했을 때 받아들이는 행위
   * 주의점) 기존 파일과 이름이 같을 경우, 
+  
+  
+
+### 주요 git command
+
+- git pull origin master
+- git fench
+- git branch
  
  
 참고 : MD 문법 https://heropy.blog/2017/09/30/markdown/  Git 문법: https://git-scm.com/book/ko/v2
