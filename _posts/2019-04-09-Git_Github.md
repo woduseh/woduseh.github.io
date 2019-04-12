@@ -9,23 +9,23 @@ categories: [OSS, Git]
 
 
 
-Git이란? 분산 버전 관리 툴
+- Git이란? 분산 버전 관리 툴
 
-Github란?  깃(Git)을 사용하는 프로젝트를 지원하는 웹호스팅 서비스
+- Github란?  깃(Git)을 사용하는 프로젝트를 지원하는 웹호스팅 서비스
 
-Repositiory - 저장소
+- Repositiory - 저장소
 
-Fork - 사본 생성. 즉, UNIX의 fork()처럼 원본 프로젝트를 복사해와서 내 원격 저장소에 저장함
+- Fork - 사본 생성. 즉, UNIX의 fork()처럼 원본 프로젝트를 복사해와서 내 원격 저장소에 저장함
 
-Clone - 내 원격 저장소에 있는 내용을 로컬 저장소로 복사
+- Clone - 내 원격 저장소에 있는 내용을 로컬 저장소로 복사
 
-add, commit... - 개발작업 로컬 반영
+- add, commit... - 개발작업 로컬 반영
 
-Push - 로컬 저장소에서 수정한 내용들을 내 원격 저장소에 붙여넣음
+- Push - 로컬 저장소에서 수정한 내용들을 내 원격 저장소에 붙여넣음
 
-Pull - 내 원격 저장소에 있는 내용들을 원본 프로젝트에 추가함
+- Pull - 내 원격 저장소에 있는 내용들을 원본 프로젝트에 추가함
 
-PR: pull request - 내가 commit한 파일을 원본에 추가해주길 request함
+- PR: pull request - 내가 commit한 파일을 원본에 추가해주길 request함
 
 
 
@@ -65,4 +65,7 @@ git clone https://github.com/자기계정/oss2019spring
 
 
 merge: PR을 받아들일지 말지 결정하여 받아들이기로 판단했을 때 받아들이는 행위
- - 주의점) 기존 파일과 이름이 같을 경우
+ - 주의점) 기존 파일과 이름이 같을 경우, 
+ 
+ 
+참고 : MD 문법 https://heropy.blog/2017/09/30/markdown/
