@@ -26,7 +26,7 @@ categories: [OSS, Ubuntu, Web]
 2. ```$ sudo nano /var/www/html/info.php``` 명령어를 통해 info 파일을 편집기로 열어서 ```<?php phpinfo(); ?>``` 를 입력
 3. 웹 브라우저를 켜고 localhost/info.php 에 접속하여 확인
 
-결과: ![php](https://woduseh.github.io/assets/images/PHPINFO.PNG)
+결과: ![php ](https://woduseh.github.io/assets/images/PHPINFO.PNG)
 
 
 ### Mysql 설치하고 mysqld가 시작되었는지 확인하기
@@ -78,13 +78,13 @@ Success.
 
 3. DB를 새로 생성하고 DB를 사용할 사용자도 새로 생성한 뒤 사용자에게 DB를 사용할 권한을 부여
 
-결과: ![mysql](https://woduseh.github.io/assets/images/Mysql.PNG)
+결과: ![mysql 결과](https://woduseh.github.io/assets/images/Mysql.PNG)
 
 ### phpmyadmin을 설치하고 브라우저로 확인
 1. ```sudo apt install phpmyadmin``` 명령어로 phpmyadmin을 설치
 2. 설치 설정창에서 apache2 -> 예 를 입력한 뒤 암호 설정
 
-결과: ![phpmyadmin](https://woduseh.github.io/assets/images/Phpmyadmin.PNG)
+결과: ![phpmyadmin 결과](https://woduseh.github.io/assets/images/Phpmyadmin.PNG)
 
 ### apache 서버를 상태확인/시작/중지/재시작하기
 상태 확인: service apache2 status
@@ -121,10 +121,12 @@ sudo apt install php-curl php-gd php-intl php-mbstring php-soap php-xml php-xmlr
 ```
 5. 웹사이트에 접속하여 워드프레스 설치 진행
 
-결과: ![워드프레스](https://woduseh.github.io/assets/images/wordpress.PNG)
+결과: ![워드프레스 결과](https://woduseh.github.io/assets/images/wordpress.PNG)
 
 ---
 # 웹 호스팅 Virtual Host 세팅 방법 찾아보기 
+
+
 ---
 참고 자료: ```
 https://blog.outsider.ne.kr/346
@@ -137,4 +139,4 @@ https://zetawiki.com/wiki/%EC%95%84%ED%8C%8C%EC%B9%98_%EC%9B%B9%EC%84%9C%EB%B2%8
 https://m.blog.naver.com/yexx/220720241912 https://m.blog.naver.com/cjwdark/220617377179 https://blog.xianchoi.kr/268 // 아파치 웹서버 홈 디렉토리 변경 설명
 https://ko.wordpress.org/txt-install/ https://jimnong.tistory.com/746 https://webdir.tistory.com/210 // wordpress 설치 설명
 
-```
+https://mygumi.tistory.com/64 // 가상 호스트 설정 설명
