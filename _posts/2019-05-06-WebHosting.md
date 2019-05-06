@@ -140,3 +140,4 @@ https://m.blog.naver.com/yexx/220720241912 https://m.blog.naver.com/cjwdark/2206
 https://ko.wordpress.org/txt-install/ https://jimnong.tistory.com/746 https://webdir.tistory.com/210 // wordpress 설치 설명
 
 https://mygumi.tistory.com/64 // 가상 호스트 설정 설명
+```
