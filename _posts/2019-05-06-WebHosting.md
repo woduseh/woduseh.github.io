@@ -136,9 +136,18 @@ https://ngee.tistory.com/128
 // Apt 명령어 설명
 
 https://webnautes.tistory.com/1185 // php, mysql, phpmyadmin 설치 설명
+
 https://zetawiki.com/wiki/%EC%95%84%ED%8C%8C%EC%B9%98_%EC%9B%B9%EC%84%9C%EB%B2%84 // 아파치 서버 관련 명령어 설명
-https://m.blog.naver.com/yexx/220720241912 https://m.blog.naver.com/cjwdark/220617377179 https://blog.xianchoi.kr/268 // 아파치 웹서버 홈 디렉토리 변경 설명
-https://ko.wordpress.org/txt-install/ https://jimnong.tistory.com/746 https://webdir.tistory.com/210 // wordpress 설치 설명
+
+https://m.blog.naver.com/yexx/220720241912
+https://m.blog.naver.com/cjwdark/220617377179
+https://blog.xianchoi.kr/268
+// 아파치 웹서버 홈 디렉토리 변경 설명
+
+https://ko.wordpress.org/txt-install/
+https://jimnong.tistory.com/746
+https://webdir.tistory.com/210
+// wordpress 설치 설명
 
 https://mygumi.tistory.com/64 // 가상 호스트 설정 설명
 ```
