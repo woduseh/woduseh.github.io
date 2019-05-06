@@ -22,10 +22,11 @@ categories: [OSS, Ubuntu, Web]
 
 ### Php 설치하기
 1. ```sudo apt install php php-mysql``` 명령어를 통해 php 설치
+![설치방법](https://woduseh.github.io/assets/images/php1.PNG)
 2. ```$ sudo nano /var/www/html/info.php``` 명령어를 통해 info 파일을 편집기로 열어서 ```<?php phpinfo(); ?>``` 를 입력
 3. 웹 브라우저를 켜고 localhost/info.php 에 접속하여 확인
 
-결과:
+결과: ![php](https://woduseh.github.io/assets/images/PHPINFO.PNG)
 
 
 ### Mysql 설치하고 mysqld가 시작되었는지 확인하기
@@ -77,13 +78,13 @@ Success.
 
 3. DB를 새로 생성하고 DB를 사용할 사용자도 새로 생성한 뒤 사용자에게 DB를 사용할 권한을 부여
 
-결과: 
+결과: ![mysql](https://woduseh.github.io/assets/images/Mysql.PNG)
 
 ### phpmyadmin을 설치하고 브라우저로 확인
 1. ```sudo apt install phpmyadmin``` 명령어로 phpmyadmin을 설치
 2. 설치 설정창에서 apache2 -> 예 를 입력한 뒤 암호 설정
 
-결과: 
+결과: ![phpmyadmin](https://woduseh.github.io/assets/images/Phpmyadmin.PNG)
 
 ### apache 서버를 상태확인/시작/중지/재시작하기
 상태 확인: service apache2 status
@@ -120,7 +121,7 @@ sudo apt install php-curl php-gd php-intl php-mbstring php-soap php-xml php-xmlr
 ```
 5. 웹사이트에 접속하여 워드프레스 설치 진행
 
-결과: 
+결과: ![워드프레스](https://woduseh.github.io/assets/images/wordpress.PNG)
 
 ---
 # 웹 호스팅 Virtual Host 세팅 방법 찾아보기 
