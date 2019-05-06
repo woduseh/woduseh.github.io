@@ -100,14 +100,15 @@ Success.
 
 ### DB 계정 만들어 wordpress 간단 설치 및 확인
 1. 워드프레스용 DB를 생성하고 DB에 사용자 계정 연결
-2. 
+2. 여러 유용한 php 익스텐션들 설치 (생략 가능?)
 ```
 sudo apt update
 sudo apt install php-curl php-gd php-intl php-mbstring php-soap php-xml php-xmlrpc php-zip
 
 ```
-으로 여러 유용한 php 익스텐션들 설치
-3. 
+
+
+3. 워드프레스 파일 다운로드 및 압축 
 ```
 1.특정 계정의 홈디렉터리 가동 체크 및 해당 디렉토리로 이동
 2.최신 워드프레스 설치용 압축파일 다운로드 $ wget https://wordpress.org/latest.tar.gz
