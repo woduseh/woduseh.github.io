@@ -94,7 +94,13 @@ Success.
 
 ### 홈 디렉터리 변경해 보기 (/var/www/html/ —> 특정계정/html/) 
 1. 터미널을 켜고 ```sudo nano /etc/apache2/apache2.conf``` 명령어를 실행하여 아파치 설정 파일을 켠다
-2. apache2.conf 파일에서 아래 <Directory /> 부분을 찾아서 루트디렉토리로 사용할 위치를 기록한다
+2. apache2.conf 파일에서 
+```
+<VirtualHost *:80>
+    DocumentRoot /home/yeon/apachewebserver/www/html
+</VirtualHost> 
+```
+라는 부분을 찾아서 DocumentRoot에 새 루트디렉토리로 사용할 위치를 넣는다.
 3. ```sudo nano /etc/apache2/sites-available/000-default.conf``` 를 통해 아파치 웹서버의 사이트 설정파일을 수정한다. (000-default.conf 파일수정)
 4. 아파치 웹서버 중지 후 재시작
 
