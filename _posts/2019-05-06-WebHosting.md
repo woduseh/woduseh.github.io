@@ -126,10 +126,27 @@ sudo apt install php-curl php-gd php-intl php-mbstring php-soap php-xml php-xmlr
 
 ---
 # 웹 호스팅 Virtual Host 세팅 방법 찾아보기 
+0. 먼저 ```$ sudo nano /etc/apache2/ports.conf``` 를 통해 포트 설정파일에 들어가서 사용할 새로운 포트를 등록한다
 1. ```sudo vi /etc/apache2/sites-available/000-default.conf``` 을 통해 설정파일 접속
-2. ```Listen 을 통해 새로운 포트를 열고 새로운 포트에 대한 설정을 마침```
+2. 
+```
+Listen 을 통해 새로운 포트를 열고 
+
+<VirtualHost *:80>
+    DocumentRoot /home/yeon/apachewebserver/www/html
+</VirtualHost>
+<VirtualHost *:8081>
+    DocumentRoot /home/yeon/testserver/www/html
+</VirtualHost>
+
+같은 방식으로 새로운 포트에 대한 설정을 마침
+(DocumentRoot는 내가 이 가상 호스트에게 주려는 루트 경로를 넣어주면 된다)
+```
 3. 위에 올린 것처럼 새로운 계정에 워드프레스 새로 설치
 4. 포트 번호를 바꿔가며 워드프레스 확인
+
+결과: ![Virtual Host](https://woduseh.github.io/assets/images/virtualhost.PNG)
+새로 만든 8081 포트에 정상적으로 워드프레스가 설치된 다른 경로를 불러온 것을 확인할 수 있다.
 
 ---
 참고 자료: 
@@ -156,5 +173,6 @@ https://webdir.tistory.com/210
 
 https://mygumi.tistory.com/64 
 https://webdir.tistory.com/213
+https://osasf.net/discussion/607/apache%EC%97%90%EC%84%9C-%EB%8B%A4%EC%A4%91-%ED%8F%AC%ED%8A%B8-%EC%84%A4%EC%A0%95%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95
 // 가상 호스트 설정 설명
 ```
