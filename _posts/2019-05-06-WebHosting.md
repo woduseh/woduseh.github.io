@@ -125,7 +125,10 @@ sudo apt install php-curl php-gd php-intl php-mbstring php-soap php-xml php-xmlr
 
 ---
 # 웹 호스팅 Virtual Host 세팅 방법 찾아보기 
-
+1. ```sudo vi /etc/apache2/sites-available/000-default.conf``` 을 통해 설정파일 접속
+2. ```Listen 을 통해 새로운 포트를 열고 새로운 포트에 대한 설정을 마침```
+3. 위에 올린 것처럼 새로운 계정에 워드프레스 새로 설치
+4. 포트 번호를 바꿔가며 워드프레스 확인
 
 ---
 참고 자료: 
@@ -144,10 +147,13 @@ https://m.blog.naver.com/cjwdark/220617377179
 https://blog.xianchoi.kr/268
 // 아파치 웹서버 홈 디렉토리 변경 설명
 
+https://antilibrary.org/1884
 https://ko.wordpress.org/txt-install/
 https://jimnong.tistory.com/746
 https://webdir.tistory.com/210
 // wordpress 설치 설명
 
-https://mygumi.tistory.com/64 // 가상 호스트 설정 설명
+https://mygumi.tistory.com/64 
+https://webdir.tistory.com/213
+// 가상 호스트 설정 설명
 ```
