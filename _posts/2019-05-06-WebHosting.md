@@ -128,7 +128,8 @@ sudo apt install php-curl php-gd php-intl php-mbstring php-soap php-xml php-xmlr
 
 
 ---
-참고 자료: ```
+참고 자료: 
+```
 https://blog.outsider.ne.kr/346
 https://www.manualfactory.net/10175
 https://ngee.tistory.com/128
