@@ -22,7 +22,7 @@ categories: [OSS, Ubuntu, Web]
 
 ### Php 설치하기
 1. ```sudo apt install php php-mysql``` 명령어를 통해 php 설치
-![설치방법](https://woduseh.github.io/assets/images/php1.PNG)
+![설치방법](https://woduseh.github.io/assets/images/php1.png)
 2. ```$ sudo nano /var/www/html/info.php``` 명령어를 통해 info 파일을 편집기로 열어서 ```<?php phpinfo(); ?>``` 를 입력
 3. 웹 브라우저를 켜고 localhost/info.php 에 접속하여 확인
 
@@ -76,7 +76,7 @@ Remove anonymous users? (Press y|Y for Yes, any other key for No) : y
 Success.
 ```
 
-3. DB를 새로 생성하고 DB를 사용할 사용자도 새로 생성한 뒤 사용자에게 DB를 사용할 권한을 부여
+그 후, DB를 새로 생성하고 DB를 사용할 사용자도 새로 생성한 뒤 사용자에게 DB를 사용할 권한을 부여하면 mysql을 사용할 수 
 
 결과: ![mysql 결과](https://woduseh.github.io/assets/images/Mysql.PNG)
 
