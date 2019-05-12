@@ -108,9 +108,9 @@ https://github.com/woduseh/woduseh.github.io/blob/master/_posts/2019-05-06-WebHo
 
 위의 과정을 3번 반복하면 3개의 가상호스트에 각각 wordpress를 설치할 수 있다
 
-![kim](https://woduseh.github.io/assets/images/kim.PNG)
-![lee](https://woduseh.github.io/assets/images/lee.PNG)
-![park](https://woduseh.github.io/assets/images/park.PNG)
+![kim.com](https://woduseh.github.io/assets/images/kim.PNG)
+![lee.com](https://woduseh.github.io/assets/images/lee.PNG)
+![park.com](https://woduseh.github.io/assets/images/park.png)
 
 ---
 참고 자료
