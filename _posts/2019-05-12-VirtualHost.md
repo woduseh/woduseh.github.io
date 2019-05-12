@@ -98,18 +98,26 @@ exit
 ```
 
 2. Wordpress 설치
-
+```
+https://github.com/woduseh/woduseh.github.io/blob/master/_posts/2019-05-06-WebHosting.md 참조
+```
 
 ### 결과
 
+위의 과정을 3번 반복하면 3개의 가상호스트에 각각 wordpress를 설치할 수 있다
 
+![kim.com](https://woduseh.github.io/assets/images/kim.com.PNG)
+![lee.com](https://woduseh.github.io/assets/images/lee.com.PNG)
+![park.com](https://woduseh.github.io/assets/images/park.com.PNG)
 
 ---
 참고 자료
 ```
 https://zetawiki.com/wiki/%EB%A6%AC%EB%88%85%EC%8A%A4_%EA%B3%84%EC%A0%95_%EC%83%9D%EC%84%B1_useradd
 http://w3devlabs.net/wp/?p=19879
+//이름 기반 가상 호스트 세팅 
 
 https://websiteforstudents.com/setup-apache2-virtualhost-multiple-wordpress-blogs/
 https://www.ostechnix.com/configure-apache-virtual-hosts-ubuntu-part-1/
+//각 사용자 계정에 홈페이지용 디렉토리 밑에 Wordpress 세팅
 ```
