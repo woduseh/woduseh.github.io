@@ -37,10 +37,12 @@ sudo chmod -R 755 /home/kim/html
 ### 이름 기반 가상 호스트 세팅 
 
 1. 새로 만들 사이트의 설정 파일 만들기
+
 ```
 sudo cp /etc/apache2/sites-available/000-default.conf /etc/apache2/sites-available/example.com.conf
 sudo nano /etc/apache2/sites-available/example.com.conf
 ```
+
 
 ```
 <VirtualHost *:80>
@@ -66,12 +68,15 @@ sudo nano /etc/apache2/sites-available/example.com.conf
 # vim: syntax=apache ts=4 sw=4 sts=4 sr noet
 ```
 
+
 2. 방금 만든 설정파일을 활성화
+
 ```
 sudo a2ensite example.com.conf
 ```
 
 3. /etc/hosts 파일에 새로 만든 사이트들을 등록
+
 ```
 sudo vi /etc/hosts
 ```
@@ -91,6 +96,7 @@ sudo vi /etc/hosts
 ### 각 사용자 계정에 홈페이지용 디렉토리 밑에 Wordpress 세팅
 
 1. 새로운 계정의 Wordpress에서 사용할 DB 만들기
+
 ```
 sudo mysql -u root -p
 CREATE DATABASE [DB 이름];
@@ -100,6 +106,7 @@ exit
 ```
 
 2. Wordpress 설치
+
 ```
 https://github.com/woduseh/woduseh.github.io/blob/master/_posts/2019-05-06-WebHosting.md 참조
 ```
@@ -114,6 +121,7 @@ https://github.com/woduseh/woduseh.github.io/blob/master/_posts/2019-05-06-WebHo
 
 ---
 참고 자료
+
 ```
 https://zetawiki.com/wiki/%EB%A6%AC%EB%88%85%EC%8A%A4_%EA%B3%84%EC%A0%95_%EC%83%9D%EC%84%B1_useradd
 http://w3devlabs.net/wp/?p=19879
