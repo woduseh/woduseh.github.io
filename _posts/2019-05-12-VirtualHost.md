@@ -9,27 +9,29 @@ categories: [OSS, Ubuntu, Web]
 
 ### 사용자 계정 새로 생성하기
 
-1. 우선 신규 사용자의 홈 디렉토리로 사용할 폴더를 생성해준다
-```
-mkdir [계정명]
-cd [계정명]
-mkdir html
-```
-
-나같은 경우에는 /home/yeon/kim/html 같은 식으로 신규 사용자 kim과 kim의 홈 디렉토리, 그 밑의 html 디렉토리를 만들었다.
-
-2. useradd 명령어를 사용하여 새로운 계정을 생성한다
+1. useradd 명령어를 사용하여 새로운 계정을 생성한다
 ```
 useradd [계정명] -m -s /bin/bash //홈폴더+쉘환경 지정
 ```
-3. useradd 명령어를 사용하며 만든 계정에 비밀번호와 홈 디렉토리를 할당해준다 
+
+나같은 경우에는 /home/kim/html 같은 식으로 신규 사용자 kim과 kim의 홈 디렉토리, 그 밑의 html 디렉토리를 만들었다.
+
+
+2. 미리 권한을 설정해둔다
 ```
-useradd -d [계정명] [이 계정에 사용할 홈 디렉토리 경로]
+sudo chown -R www-data:www-data /home/kim/html
+sudo chmod -R 755 /home/kim/html
 ```
-4. 미리 권한을 설정해둔다
+
+3. /etc/apache2/apache2.conf 파일 수정
 ```
-sudo chown -R www-data:www-data /home/yeon/kim/html
-sudo chmod -R 755 /home/yeon/kim/html
+~~
+<Directory /home/*/html/>
+  Options Indexes FollowSymLinks
+  AllowOverride None
+  Require all granted
+ </Directory>
+~~
 ```
 
 ### 이름 기반 가상 호스트 세팅 
@@ -77,7 +79,7 @@ sudo vi /etc/hosts
 ```
   1 [ip 주소]       localhost
   2 [ip 주소]       ubuntu
-  3 [ip 주소] [만든 사이트 이름]
+  3 [ip 주소]       [만든 사이트 이름]
   6 
   7 
   8 
@@ -106,9 +108,9 @@ https://github.com/woduseh/woduseh.github.io/blob/master/_posts/2019-05-06-WebHo
 
 위의 과정을 3번 반복하면 3개의 가상호스트에 각각 wordpress를 설치할 수 있다
 
-![kim.com](https://woduseh.github.io/assets/images/kim.com.PNG)
-![lee.com](https://woduseh.github.io/assets/images/lee.com.PNG)
-![park.com](https://woduseh.github.io/assets/images/park.com.PNG)
+![kim](https://woduseh.github.io/assets/images/kim.PNG)
+![lee](https://woduseh.github.io/assets/images/lee.PNG)
+![park](https://woduseh.github.io/assets/images/park.PNG)
 
 ---
 참고 자료
