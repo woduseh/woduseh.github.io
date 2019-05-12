@@ -10,6 +10,7 @@ categories: [OSS, Ubuntu, Web]
 ### 사용자 계정 새로 생성하기
 
 1. useradd 명령어를 사용하여 새로운 계정을 생성한다
+
 ```
 useradd [계정명] -m -s /bin/bash //홈폴더+쉘환경 지정
 ```
@@ -18,20 +19,20 @@ useradd [계정명] -m -s /bin/bash //홈폴더+쉘환경 지정
 
 
 2. 미리 권한을 설정해둔다
+
 ```
 sudo chown -R www-data:www-data /home/kim/html
 sudo chmod -R 755 /home/kim/html
 ```
 
 3. /etc/apache2/apache2.conf 파일 수정
+
 ```
-~~
 <Directory /home/*/html/>
   Options Indexes FollowSymLinks
   AllowOverride None
   Require all granted
  </Directory>
-~~
 ```
 
 ### 이름 기반 가상 호스트 세팅 
