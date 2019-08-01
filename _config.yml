@@ -15,12 +15,13 @@
 minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale                   : "Kor"
-title                    : "Code Study"
+locale                   : "ko-KOR"
+title                    : "코드 공부하는 블로그"
 title_separator          : "-"
-name                     : "코드 공부하는 블로그"
-description              : "수업/과제를 위해 코드를 공부하고 업로드함"
-url                      : https://woduseh.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+subtitle                 : # site tagline that appears below site title in masthead
+name                     : "황재연"
+description              : "가끔 배운거 정리하"
+url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
@@ -106,11 +107,11 @@ analytics:
 
 # Site Author
 author:
-  name             : "Hwang JaeYeon"
+  name             : "황재연"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "HGU Computer Engineering Student"
-  location         : "Pohang, Korea"
-  email            : "21500814@handong.edu"
+  bio              : "한동대학교 컴퓨터공학심화 3"
+  location         : "대한민국 서울"
+  email            :
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
@@ -279,10 +280,6 @@ compress_html:
   ignore:
     envs: development
 
-comments:
-  provider               : "disqus"
-  disqus:
-    shortname            : dev-hundred-blog # Short-name
 
 # Defaults
 defaults:
@@ -297,9 +294,9 @@ defaults:
       comments: # true
       share: true
       related: true
-# _pages
   - scope:
-      path: "_pages"
-      type: pages
-    values:
-      layout: single
+    path: "_pages"
+    type: pages
+  values:
+    layout: single
+    author_profile: true
