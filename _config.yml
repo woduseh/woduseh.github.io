@@ -20,7 +20,7 @@ title                    : "코드 공부하는 블로그"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "황재연"
-description              : "가끔 배운거 정리하"
+description              : "가끔 배운거 정리하는 곳"
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -109,7 +109,7 @@ analytics:
 author:
   name             : "황재연"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "한동대학교 컴퓨터공학심화 3"
+  bio              : "한동대학교 컴퓨터공학심화 3학년"
   location         : "대한민국 서울"
   email            :
   links:
@@ -294,6 +294,8 @@ defaults:
       comments: # true
       share: true
       related: true
+      
+pages:
   - scope:
     path: "_pages"
     type: pages
